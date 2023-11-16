@@ -1,0 +1,19 @@
+{
+  "name": "mohammed-agboola-2",
+  "version": "1.0.0",
+  "description": "simple calorie app",
+  "scripts": {
+    "start:client": "cd packages/client && npm run dev",
+    "start:server": "cd packages/server && npm run dev",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.toptal.com/screening/Mohammed-Agboola-2.git"
+  },
+  "author": "Mohammed Agboola",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
